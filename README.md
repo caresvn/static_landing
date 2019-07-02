@@ -5,11 +5,11 @@
 ## Installation
 
 ```bash
-git clone https://github.com/ericalli/static-site-boilerplate
+git clone https://github.com/caresvn/static_landing.git
  ```
  
  ```bash
-cd static-site-boilerplate
+cd static_landing
  ```
  
  ```bash
