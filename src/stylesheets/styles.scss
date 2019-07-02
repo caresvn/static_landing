@@ -1,0 +1,150 @@
+// Load CSS Reset from NPM
+$c-dark: #111;
+$c-white: #fff;
+$c-black: #000;
+$c-blue: #4164cd;
+$c-yellow: #ffcb00;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.35;
+  color: $c-dark;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.c-blue {
+  color: $c-blue;
+}
+
+.c-white {
+  color: $c-white;
+}
+
+.c-yellow {
+  color: $c-yellow;
+}
+
+.label-text {
+  background: $c-yellow;
+  padding: 3px 5px;
+}
+
+.c-link {
+  text-decoration: underline;
+}
+
+.c-link:hover {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 0.75em;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper--row {
+  flex-direction: column;
+}
+
+.block {
+  width: 100%;
+}
+
+.block--top {
+  background: $c-white;
+}
+
+.block--bottom {
+  background: $c-blue;
+}
+
+.block--left,
+.block--right {
+  min-height: 50vh;
+}
+
+.block--left {
+  background: $c-white;
+}
+
+.block--right {
+  background: $c-blue;
+}
+
+.block__inner {
+  max-width: 390px;
+  margin: 0;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    min-height: 100vh;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block--left,
+  .block--right {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .block--bottom {
+    flex: 1 1 0;
+  }
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.page-404 .logo {
+  margin-bottom: 0;
+}
+
+.logo__image {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.logo__description {
+  font-size: 1.4rem;
+}
