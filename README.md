@@ -1,5 +1,9 @@
 # Cares.vn Landing page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4b2ddd5-3845-4762-98d7-16d2159cd417/deploy-status)](https://app.netlify.com/sites/caresvn/deploys)
+
+Live demo: <https://landing.cares.vn> or <https://caresvn.netlify.com/>
+
 ![Screenshot](screenshot.png)
 
 ## Installation
